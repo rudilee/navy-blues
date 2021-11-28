@@ -1,0 +1,21 @@
+{
+    "name": "navy-blues",
+    "displayName": "Navy Blues",
+    "description": "Simple minimalist dark theme inspired by Tomorrow Night Blue.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "navy-blues",
+                "uiTheme": "vs-dark",
+                "path": "./themes/navy-blues-color-theme.json"
+            }
+        ]
+    }
+}

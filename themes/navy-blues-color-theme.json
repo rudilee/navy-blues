@@ -1,0 +1,83 @@
+{
+	"name": "navy-blues",
+	"type": "dark",
+	"colors": {
+		"focusBorder": "#64b4ff",
+		"foreground": "#f7f6f5",
+		"selection.background": "#1d5494",
+		"errorForeground": "#e67d78",
+		"editor.background": "#233557",
+		"editor.foreground": "#f7f6f5",
+		"editor.lineHighlightBackground": "#214170",
+		"editor.selectionBackground": "#1d5494",
+		"editorCursor.background": "#233557",
+		"editorCursor.foreground": "#f7f6f5",
+		"editorLineNumber.foreground": "#466dab",
+		"editorLineNumber.activeForeground": "#6e8fc4",
+		"editorError.foreground": "#e67d78",
+		"activityBarBadge.background": "#64b4ff",
+		"activityBar.foreground": "#f7f6f5",
+		"activityBar.inactiveForeground": "#a7a6a5",
+		"activityBar.activeBorder": "#f7f6f5",
+		"activityBar.background": "#1a2842",
+		"sideBarSectionHeader.background": "#245692",
+		"sideBarTitle.foreground": "#f7f6f5",
+		"sideBar.background": "#1d2c49",
+		"sideBar.foreground": "#d7d6d5",
+		"list.activeSelectionBackground": "#304e79",
+		"list.inactiveSelectionBackground": "#20416d",
+		"list.hoverBackground": "#375b89",
+		"list.errorForeground": "#e67d78",
+		"scrollbarSlider.background": "#33405b",
+		"editorGroupHeader.tabsBackground": "#1a2842",
+		"tab.inactiveBackground": "#1d2c49",
+		"minimap.errorHighlight": "#e67d78",
+		"editorOverviewRuler.errorForeground": "#e67d78",
+		"editorOverviewRuler.warningForeground": "#f5eb14",
+		"editorOverviewRuler.infoForeground": "#64b4ff",
+		"problemsErrorIcon.foreground": "#e67d78",
+		"problemsWarningIcon.foreground": "#f5eb14",
+		"problemsInfoIcon.foreground": "#64b4ff",
+		"statusBar.background": "#64b4ff",
+		"statusBar.foreground": "#233557",
+		"editorHoverWidget.background": "#1d2c49",
+		"editorHoverWidget.foreground": "#d7d6d5",
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#466dab"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [ "keyword" ],
+			"settings": {
+				"foreground": "#f7f6f5",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [ "string" ],
+			"settings": {
+				"foreground": "#bfec93"
+			}
+		},
+		{
+			"name": "Numeric",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#f4c671",
+			}
+		}
+	]
+}
